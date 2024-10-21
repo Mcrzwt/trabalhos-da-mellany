@@ -1,0 +1,14 @@
+function mediaAlunos(n1,n2,n3,n4){
+    let media = (n1+n2+n3+n4)/4
+    return "sua media é", media
+} 
+  // calculando a media dos alunos
+
+  let notasamanda = mediaAlunos(3,5,8,5)
+  console.log("A media da Amanda é:", notasamanda)
+
+   let notajuema = mediaAlunos(8,7,9,2)
+console.log("A media da jurema é:", notajuema) 
+
+let notajulia = mediaAlunos(10,9,8,6)
+console.log("A media da julia é:", notajulia)

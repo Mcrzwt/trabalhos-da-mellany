@@ -1,0 +1,32 @@
+// inventario inicial de herois
+let inventario = ["espada de diamantes", "escudo", "machado de diamente", "poção de vida", "poção de cura", "enxada", "6 pão" ];
+// exibindo o inventario inicial 
+console.log("seu inventario inicial é:", inventario);
+
+/*3 encontrando um tesouro:
+*o hereoi encontra um novo item */
+
+ let novoitem = "elmo de ferro";
+ inventario.push(novoitem);
+   
+ // exibindo o inventario atualizado 
+ console.log("voce encontrou um bau! novo item adicionado ao seu inventario:", inventario);
+ 
+
+ /*4. enfrentando um inimigo 
+ *"o hereoi enfrenta um goblin! ele usa a espada ou o escudo do sei inventario para luta." */
+// hereoi enfrenta um goblin
+console.log("um goblin aprareceu! prepare-se para a batalha.");
+
+/*. voce teve uma batalha dura e parte da sua vida foi tirada. voce pode usar uma poção de vida do inventario 
+para se recuperar*/
+
+
+/* 6. finalizar o inimigo 
+"em um golpe o goblin sentiu o intacto, é a sua hora de finalizado"*/
+let itemusado0 = inventario[0];
+console.log("voce ataca o goblin com o seu", itemusado0)
+  
+//* finalindo a batalha 
+console.log("voce derrotou o goblin e continua sua jornada.");
+console.log(inventario.length)

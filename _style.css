@@ -1,0 +1,52 @@
+/*estilizando o corpo da pagina*/
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background-image:-webkit-image-set("privacidade1.png");/* cor de fundo*/
+   background-size:cover ;
+                                                                                                                                                                                    
+}
+   header {
+    
+       color: rgb(255, 255, 255); /*cor da letra*/
+       padding: 30px;/*preenchimento do cabeçalho*/
+       text-align: center;/*alinhamento do centro*/
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*tipo de letra*/
+       }
+       .paragrafo1{
+        background-color: rgb(129, 218, 205);
+        color: rgb(0, 0, 0);
+        font-family: 'Times New Roman', Times, serif;
+        font-size:40px;
+    
+       }
+       .paragrafo2{
+        background-color: rgb(173, 249, 238);
+        color: rgb(0, 0, 0);
+        font-family: 'Times New Roman', Times, serif;
+        font-size:30px;
+       }
+       .paragrafo3{
+        background-color: rgb(173, 249, 238);
+        color: rgb(0, 0, 0);
+        font-family: 'Times New Roman', Times, serif;
+        font-size:30px;
+       }
+       .paragrafo4{
+        background-color: rgb(173, 249, 238);
+        color: rgb(0, 0, 0);
+        font-family: 'Times New Roman', Times, serif;
+        font-size:30px;
+       }
+       .paragrafo5{
+        background-color: rgb(173, 249, 238);
+        color: rgb(0, 0, 0);
+        font-family: 'Times New Roman', Times, serif;
+        font-size:30px;
+       }
+    
+    .paragrafo6{
+     background-color: rgb(173, 249, 238);
+     color: rgb(0, 0, 0);
+     font-family: 'Times New Roman', Times, serif;
+     font-size:30px;
+    }

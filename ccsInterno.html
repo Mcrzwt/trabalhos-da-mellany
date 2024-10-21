@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=2.0">
+    <title>Criando girias da rpzd</title>
+    <script src="logica.js"></script>
+    <style>
+        body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /*definindo fonte*/
+    background-color: rgba(227, 192, 250, 0.897); /* cor do fundo*/
+    margin: 0; /*remove as margens*/
+    padding: 0; /* remove o espaço interno*/
+    display: flex; /*ultilizando os sistemas da layout flexivel*/
+    justify-content: center; /* centraliza horizontalmente*/
+    align-items: center; /* centralizando o conteudo verticalmente*/
+    height: 100vh; /* defina que a altura seja 100% da tele*/
+
+}
+/*estilo para conteiner principal*/
+.container{
+    text-align: center; /* centralizando o texto dentro do conteiner*/
+    background-color: #edb0ff; /* fundo do conteiner*/
+    padding: 20px; /*espaçamento interno do conteiner*/
+    border-radius: 10px; /*borda arredondada*/
+}
+ /*estilo para o titulo de pagina*/
+h1{
+    color: rgb(0, 0, 0);
+}
+ /* estilo para o campo de entrada Input*/
+  input{
+    padding: 10px; /* espaçamento interno no campo de texto*/
+    width: 60px; /*largura do campo em relação ao conteiner*/
+    margin-bottom: 10px; /*espaçamento interior*/
+    border: 1px solid #ccc; /* borda cinza clara*/
+    border-radius: 5px; /*borda arredondada*/
+  }
+   
+  /* estilizandoo botão*/
+  button{
+    padding: 10px; /*espaçamento interno do botão*/
+    background-color: #979797; /*cor do fundo*/
+    color: black; /* cor do texto*/
+    border: nome; /*remove a borda padrão*/
+    border-radius: 12px; /* borda arredondada*/
+    cursor: pointer; /* mudo o cursor para mãozinha ao passar no botão*/
+
+  }
+   
+  /*efeito houver quando passar o mouse sobre o botão*/
+  button:hover{
+    background-color: rgb(226, 176, 255);
+
+  }
+  /*estilizando  a area onde as girias serão exibidas*/
+  #resultado{
+    margin-top: 20px; /* espaçamento superio*/
+    font-size: 18px; /*tamanho da fonte para o texto*/
+    color: rgb(155, 71, 250); /*cor do texto */
+  }
+    </style>
+    <!--fazendo a chamada do css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class ="container">
+        <h1> Escreva sua giria: </h1>
+    <input type="text" id="giriasInput"
+         placeholder="Insira sua giria aqui parça">
+       <button onclick="adicionandoGiria()">
+        adicionar Giria </button>
+    
+        <div id="resultado"></div>
+    </div>
+
+
+
+</body>
+</html>

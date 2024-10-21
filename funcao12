@@ -1,0 +1,9 @@
+function imprimirolamundo(){
+   console.log('ola mundo')
+}
+imprimirolamundo()
+  
+function imprimirmeutime(){
+    console.log ("meu time é: inter")
+}
+imprimirmeutime()

@@ -1,0 +1,25 @@
+// montando o guarda-roupa
+
+
+// exibindos as opções do guarda-roupa
+
+let guardaRoupa = ["vestido preto", "calça jeans", "blusa preta", "tenis", "saia", "short", "casaco ted"]
+
+// exibindo as opçoes do meu guarda-roupa
+console.log("meu guarda roupa tem: ", guardaRoupa) 
+
+ // selecionando um look para sair 
+  let lookselecionado = [] // look vazio 
+
+  // usando push para adicionar peças de roupas do nosso guarda-roupa no nosso look
+
+  lookselecionado.push(guardaRoupa[0]) // adicionar a peça 0
+  lookselecionado.push(guardaRoupa[3]) // adicionar a peça 3
+ lookselecionado.push(guardaRoupa[6])  // adicionar peça 6 
+      
+ // exibindo o loook selecionado
+
+ console.log("seu look para sair é: ", lookselecionado)
+ 
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
